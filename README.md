@@ -3,6 +3,15 @@ fbone
 
 A simple Flask skeleton
 
+## Usage
+
+Start server: 
+`$ fab run` or `$ fab grun` for gunicorn server
+
+Interactive shell: `$ fab shell`
+
+Unit testing: `$ fab tests`
+
 ## Structure
 
 ```
@@ -12,7 +21,7 @@ A simple Flask skeleton
 │   ├── assets.py
 │   ├── config.py
 │   ├── constants.py
-│   ├── module)
+│   ├── module
 │   │   ├── business.py
 │   │   ├── constants.py
 │   │   ├── decorators.py
